@@ -63,7 +63,7 @@ def add_page_number(canvas,_,team):
     canvas.setFont("Helvetica", 12)
     width, _ = A3
 
-    x, y = width - 10, 50  # Start from the right edge with some padding
+    _, y = width - 10, 50  # Start from the right edge with some padding
 
     # Calculate the width of the team text
     team_text_width = stringWidth(team, "Helvetica", 9)
